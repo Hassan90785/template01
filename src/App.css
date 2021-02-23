@@ -66,8 +66,14 @@ header {
   background: #2d242485;
   opacity: 0.8;
 }
+
 .img-overlay-dark {
   background: #060606eb;
+  opacity: 0.8;
+}
+
+.img-overlay-light {
+  background: #f9f9f9eb;
   opacity: 0.8;
 }
 
@@ -124,18 +130,25 @@ header {
   font-size: 1.2rem;
 }
 
+.font-xxs {
+  font-size: 0.7rem;
+}
+
 .card {
   border: none !important;
   border-radius: unset !important;
 }
+
 .card-img, .card-img-bottom {
   border-bottom-right-radius: unset !important;
   border-bottom-left-radius: unset !important;
 }
+
 .card-img, .card-img-top {
   border-top-left-radius: unset !important;
   border-top-right-radius: unset !important;
 }
+
 .logo-sm {
   width: 11rem;
   height: 4.7rem;
@@ -146,17 +159,214 @@ header {
   margin-top: 4.2rem;
   color: gray;
 }
-.contact{
+
+.contact {
   color: #5555ea;
   font-size: large;
   border-bottom: 2px solid #5555ea;
   font-weight: 600;
 }
-.footer-list{
+
+.footer-list {
   border: none !important;
   line-height: 0.2;
   color: gray;
   overflow-y: hidden;
+}
+
+.latest-news-img-lg {
+  width: 48.9vw;
+}
+
+.latest-news-card-md {
+  width: 28vw;
+  position: absolute;
+  left: 32%;
+  top: 1.7rem;
+  z-index: 1;
+  background: transparent;
+}
+
+.latest-news-card-sm {
+  width: 26vw;
+  position: absolute;
+  right: 0;
+  top: 1vh;
+  z-index: 1;
+  background: transparent;
+}
+
+.latest-news-card-two-sm {
+  width: 26vw;
+  position: absolute;
+  right: 0;
+  top: 21vh;
+  z-index: 1;
+  background: transparent;
+}
+
+.latest-news-card-body-sm {
+  width: 80%;
+  background: white;
+  position: absolute;
+  right: 0;
+}
+
+.latest-news-card-body-md {
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 3rem;
+}
+
+.about-card-body-md {
+  background: white;
+  position: absolute;
+  top: 5rem;
+  right: -9.4rem;
+  overflow-y: hidden;
+}
+
+.aboutus-card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  height: 30em;
+}
+
+.aboutus-card-body {
+  width: 30%;
+  border: 1px solid #80808008;
+  height: fit-content;
+  text-align: justify;
+}
+
+.about-card-title {
+  width: fit-content;
+}
+
+.font-lg {
+  font-size: 2.4em;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.img-overlay-red-gradient {
+  background: linear-gradient(0, #d41a1a, #17141457);
+  opacity: 0.8;
+}
+
+.img-overlay-blue-gradient {
+  background: linear-gradient(0, #6569ec, #17141457);
+  opacity: 0.8;
+}
+
+.card-img-overlay {
+  overflow-y: hidden;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+  height: 8rem;
+}
+
+.latest-news-carousel-inner-bg {
+  background: #aba8a838;
+}
+
+.right-sm {
+  right: 8rem;
+}
+
+.right-xs {
+  right: 4rem;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+
+  .carousel-inner .carousel-item-left.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-33.333%);
+  }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
+
+.about-background img {
+  max-width: 50%;
+  max-height: 50%;
+}
+.about-background:after {
+  content: '';
+  position: absolute;
+  left: 4rem;
+  right: 48%;
+  /* width: 100%; */
+  height: 100%;
+  display: inline-block;
+  background: linear-gradient(0, #6569ec, #17141457);
+}
+
+.overlay-about {
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.bg-black {
+  background: black;
+  color: white;
+}
+
+.d-inline-imp {
+  display: inline-block !important;
+}
+
+.first-right-score-position {
+  top: 2.6rem;
+  left: 10.5rem;
+}
+
+.second-right-score-position {
+  top: 2.1rem;
+  left: 11rem;
+}
+
+.third-right-score-position {
+  top: 2.31rem;
+  left: 9.5rem;
+}
+.about-us-container{
+  top: 4rem;
+  right: -22rem;
 }
 /*░░░░░░░░░░░░░░░░░░░░░░LeftNavigation scroll bar ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*/
 ::-webkit-scrollbar-track {

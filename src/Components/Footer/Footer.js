@@ -11,7 +11,7 @@ class Footer extends Component {
                      <img src={logo} alt="logo" className=" logo-sm "/>
                     <p className="pl-3 mt-2">1145 Forrest St.</p>
                     <p className="pl-3">Suite 200 Conshohocken, PA 19428</p>
-                    <p className="pl-3"><span className="contact">+01 1245 67890</span></p>
+                    <p className="pl-3 py-1"><span className="contact">+01 1245 67890</span></p>
                     <p className="pl-3">cerberusfootballfantasy@example.com</p>
                 </div>
             </div>
