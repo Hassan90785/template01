@@ -37,9 +37,19 @@ class MatchSchedule extends Component {
                 <h4 className="scroll-y-hidden font-weight-bold pl-5">Match</h4>
                 <h4 className="scroll-y-hidden font-weight-bold pl-5">Schedule</h4>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 pl-5">
-                  <div className="mt-4 scroll-y-hidden"> <a href=""><span className="align-bottom more-link text-dark">More</span></a><br/><br/></div>
+            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 col-6 pl-5">
+                  <div className="mt-md-4 scroll-y-hidden"> <a href=""><span className="align-bottom more-link text-dark">More</span></a><br/><br/></div>
             </div>
+            <div className="col-xl-6 col-lg-4 col-md-4 col-sm-4  col-6 scroll-y-hidden">
+                    <div className="float-right"> <span className="text-black-50">s</span>
+                       <a className="carousel-control-next w-auto font-xs px-3 h-fit-content py-2 right-xs text-white border" href="#matchScheduleCarousel" role="button" data-slide="next">
+                                        <i className="fas fa-arrow-right"></i>
+                        </a>
+                       <a className="carousel-control-next w-auto font-xs h-fit-content py-2  right-sm px-3 text-white border" href="#matchScheduleCarousel" role="button" data-slide="prev">
+                                        <i className="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </div>
         </div>
          <div className="row bg-black">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
