@@ -244,7 +244,12 @@ header {
     }
 }
 
-@media only screen and (max-width: 357px) {
+@media only screen and (max-width: 425px) {
+    .first-right-score-position {
+        top: 2.4rem !important;
+        left: 9.5rem !important;
+    }
+
     .card-text-sizing {
         font-size: 1.4rem;
     }
@@ -264,6 +269,7 @@ header {
     .h3, h3 {
         font-size: 1.25rem;
     }
+
     .h1, h1 {
         font-size: 0.9rem;
     }
@@ -271,7 +277,8 @@ header {
     .p, p {
         font-size: 0.7rem !important;
     }
-    .more-link{
+
+    .more-link {
         font-size: 0.3rem !important;
     }
 
@@ -286,18 +293,36 @@ header {
     .latest-news-img-lg {
         width: 100% !important;
     }
+
     .carousel-caption {
         top: -1rem;
         left: 0.7rem;
+    }
+
+    .footer-list {
+        border: none !important;
+        line-height: 0.1rem;
+        overflow-y: hidden;
+        font-size: 0.7rem;
+    }
+
+    .list-group-item {
+        padding: 0.4rem 1.25rem !important;
+    }
+
+    .font-xs {
+        font-size: 0.8rem!important;
     }
 }
 
 .overflow-y-hidden {
     overflow-y: hidden;
 }
-.color-gray-light{
+
+.color-gray-light {
     color: #d6c9c9;
 }
+
 .font-lg {
     font-size: 2.4em;
     font-weight: 600;
@@ -423,6 +448,10 @@ header {
 .about-us-container {
     top: 4rem;
     right: -22rem;
+}
+
+.figure-caption {
+    text-align: center;
 }
 
 /*░░░░░░░░░░░░░░░░░░░░░░LeftNavigation scroll bar ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*/

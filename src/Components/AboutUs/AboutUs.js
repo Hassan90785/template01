@@ -17,7 +17,7 @@ class AboutUs extends Component {
         </div>
       </div>
     </div>
-    <div class="col-12 col-sm-4 col-md-5 col-lg-5 contianer-about-card pl-0 shadow-lg">
+    <div class="col-12 col-sm-4 col-md-6 col-lg-5 contianer-about-card pl-0 shadow-lg">
       <div class="overflow-y-hidden"><span class="bg-primary px-3 py-2 overflow-y-hidden text-white font-size-lg">We Are</span></div>
 	  <div class="px-3 py-2">
 	  <h2 class="overflow-y-hidden">Celberus Football Fantasy</h2>

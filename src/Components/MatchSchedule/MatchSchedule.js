@@ -47,7 +47,7 @@ class MatchSchedule extends Component {
                         <div id="matchScheduleCarousel" className="carousel  matchScheduleCarousel slide w-100" data-ride="carousel">
                             <div className="carousel-inner w-100" role="listbox">
                                 <div className="carousel-item matchScheduleCarousel-item active ">
-                                    <div className="col-md-4 col-lg-4">
+                                    <div className="col-md-6 col-lg-4">
                                         <div className="card d-inline-imp mt-md-3 ml-md-5 bg-black">
                                            <div className="float-left">
                                                <figure className="figure">
@@ -60,35 +60,35 @@ class MatchSchedule extends Component {
                                            <div className="float-left">
                                                <figure className="figure">
                                                <p className="position-absolute first-right-score-position">5</p> <img src={flag5} className="figure-img img-fluid rounded pl-5" alt="A generic square placeholder image with rounded corners in a figure."/>
-                                                  <figcaption className="figure-caption pl-3 text-center">OXFORD UTD</figcaption>
+                                                  <figcaption className="figure-caption text-right">OXFORD UTD</figcaption>
                                                 </figure>
                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item matchScheduleCarousel-item  ">
-                                    <div className="col-md-4">
-                                        <div className="card d-inline-imp mt-3 ml-5 bg-black">
+                                     <div className="col-md-6 col-lg-4">
+                                        <div className="card d-inline-imp mt-md-3 ml-md-5 bg-black">
                                            <div className="float-left">
                                                <figure className="figure">
                                                   <img src={flag1}className="figure-img img-fluid rounded pl-4" alt="A generic square placeholder image with rounded corners in a figure."/>
                                                    <p className="pt-3 pl-3 d-inline">2</p>
                                                    <p className="pt-3 pl-3 d-inline">:</p>
-                                                  <figcaption className="figure-caption">ROTHERHAM</figcaption>
+                                                  <figcaption className="figure-caption ">ROTHERHAM</figcaption>
                                                 </figure>
                                            </div>
                                            <div className="float-left">
                                                <figure className="figure">
                                                <p className="position-absolute second-right-score-position">5</p> <img src={flag1} className="figure-img img-fluid rounded pl-5" alt="A generic square placeholder image with rounded corners in a figure."/>
-                                                  <figcaption className="figure-caption pl-3 text-center">OXFORD UTD</figcaption>
+                                                  <figcaption className="figure-caption  text-right">OXFORD UTD</figcaption>
                                                 </figure>
                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="carousel-item matchScheduleCarousel-item ">
-                                    <div className="col-md-4">
-                                        <div className="card d-inline-imp mt-3 ml-5 bg-black">
+                                     <div className="col-md-6 col-lg-4">
+                                        <div className="card d-inline-imp mt-md-3 ml-md-5 bg-black">
                                            <div className="float-left">
                                                <figure className="figure">
                                                   <img src={flag3} className="figure-img img-fluid rounded pl-4" alt="A generic square placeholder image with rounded corners in a figure."/>
@@ -100,7 +100,7 @@ class MatchSchedule extends Component {
                                            <div className="float-left">
                                                <figure className="figure">
                                                <p className="position-absolute third-right-score-position">5</p> <img src={flag4} className="figure-img img-fluid rounded pl-5" alt="A generic square placeholder image with rounded corners in a figure."/>
-                                                  <figcaption className="figure-caption pl-3 text-center">OXFORD UTD</figcaption>
+                                                  <figcaption className="figure-caption  text-right">OXFORD UTD</figcaption>
                                                 </figure>
                                            </div>
                                         </div>
