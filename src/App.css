@@ -236,11 +236,34 @@ header {
     width: fit-content;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .contianer-about-card {
         position: unset;
         top: 0;
         right: 0;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    .carousel-caption {
+        top: 3rem;
+        left: 1rem;
+        bottom: auto;
+    }
+    .t-text{
+        line-height: 0.9;
+        text-align: left !important;
+        font-size: .7rem;
+        overflow-y: hidden;
+    }
+    .latest-news-card-body-md {
+        bottom: 1rem;
+        left: 3.2rem;
+    }
+    .more-link-sizing{
+        font-size: 0.9rem;
+    }
+    .card-text-sizing {
+        font-size: 0.9rem !important;
     }
 }
 
