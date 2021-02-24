@@ -32,19 +32,21 @@ class PodCast extends Component {
     render() {
         return (
             <>
-                 <div className="row my-4 mr-1 text-center">
-           <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 scroll-y-hidden">
-                <h2 className=" font-weight-bold d-inline">PODCAST</h2>
-                <div className="float-right">
-               <a className="carousel-control-next w-auto font-xs px-3 right-xs text-dark border   " href="#podCastCarousel" role="button" data-slide="next">
-                                <i className="fas fa-arrow-right"></i>
-                </a>
-               <a className="carousel-control-next w-auto font-xs   right-sm px-3 text-dark border " href="#podCastCarousel" role="button" data-slide="prev">
-                                <i className="fas fa-arrow-left"></i>
-                </a>
+                 <div className="row py-4 mr-1 text-center">
+                     <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 scroll-y-hidden">
+                       <h2 className=" font-weight-bold d-inline">PODCAST</h2>
+                     </div>
+                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 scroll-y-hidden">
+                        <div className="float-right"> <span className="text-white">sadadas</span>
+                           <a className="carousel-control-next w-auto font-xs px-3 right-xs text-dark border   " href="#podCastCarousel" role="button" data-slide="next">
+                                            <i className="fas fa-arrow-right"></i>
+                            </a>
+                           <a className="carousel-control-next w-auto font-xs   right-sm px-3 text-dark border " href="#podCastCarousel" role="button" data-slide="prev">
+                                            <i className="fas fa-arrow-left"></i>
+                            </a>
+                        </div>
                     </div>
-            </div>
-         </div>
+                 </div>
         <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div className="row my-3 mx-1">

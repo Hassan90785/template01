@@ -15,7 +15,7 @@ class MainCarousel extends Component {
                   <div className="carousel-inner">
                     <div className="carousel-item active">
                          <img src={image1} className="d-block w-100" alt="..."/>
-                        <div className="carousel-caption d-none d-md-block text-left pl-5 bg-transparent">
+                        <div className="carousel-caption  text-left pl-5 bg-transparent">
                             <span className="bg-primary scroll-y-hidden px-2 py-1 font-weight-bold">Club</span>
                             <h1 className="bg-transparent scroll-y-hidden mt-2">WEEK</h1>
                             <h1 className="bg-transparent scroll-y-hidden"><span className="color-blue bg-transparent">5</span> PRIMER</h1>
@@ -27,7 +27,7 @@ class MainCarousel extends Component {
                     </div>
                     <div className="carousel-item ">
                          <img src={image1} className="d-block w-100" alt="..."/>
-                        <div className="carousel-caption d-none d-md-block text-left pl-5 bg-transparent">
+                        <div className="carousel-caption  text-left pl-5 bg-transparent">
                             <span className="bg-primary scroll-y-hidden px-2 py-1 font-weight-bold">Club</span>
                             <h1 className="bg-transparent scroll-y-hidden mt-2">WEEK</h1>
                             <h1 className="bg-transparent scroll-y-hidden"><span className="color-blue bg-transparent">5</span> PRIMER</h1>
@@ -39,7 +39,7 @@ class MainCarousel extends Component {
                     </div>
                     <div className="carousel-item ">
                          <img src={image1} className="d-block w-100" alt="..."/>
-                        <div className="carousel-caption d-none d-md-block text-left pl-5 bg-transparent">
+                        <div className="carousel-caption  text-left pl-5 bg-transparent">
                             <span className="bg-primary scroll-y-hidden px-2 py-1 font-weight-bold">Club</span>
                             <h1 className="bg-transparent scroll-y-hidden mt-2">WEEK</h1>
                             <h1 className="bg-transparent scroll-y-hidden"><span className="color-blue bg-transparent">5</span> PRIMER</h1>
