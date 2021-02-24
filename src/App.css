@@ -13,7 +13,7 @@ a, a:hover {
 }
 
 .color-gray {
-    color: #a79a9a !important;
+    color: #2f2c2c !important;
 }
 
 header {
@@ -235,6 +235,7 @@ header {
     font-size: 1.5em;
     width: fit-content;
 }
+
 @media only screen and (max-width: 767px) {
     .contianer-about-card {
         position: unset;
@@ -242,30 +243,61 @@ header {
         right: 0;
     }
 }
+
 @media only screen and (max-width: 357px) {
+    .card-text-sizing {
+        font-size: 1.4rem;
+    }
+
     .card-text-position {
         color: white;
         line-height: 1;
         top: 2rem;
     }
+
     .card-text-position-two {
-        top: 12rem !important;
+        top: 10rem !important;
         line-height: 0.7;
+        font-size: 1.1rem;
     }
+
     .h3, h3 {
         font-size: 1.25rem;
     }
+    .h1, h1 {
+        font-size: 0.9rem;
+    }
+
+    .p, p {
+        font-size: 0.7rem !important;
+    }
+    .more-link{
+        font-size: 0.3rem !important;
+    }
+
     .top-carousel-indicators {
         bottom: 0 !important;
     }
+
     .carousel-inner .carousel-item > div {
         display: block;
     }
+
+    .latest-news-img-lg {
+        width: 100% !important;
+    }
+    .carousel-caption {
+        top: -1rem;
+        left: 0.7rem;
+    }
 }
+
 .overflow-y-hidden {
     overflow-y: hidden;
 }
-
+.color-gray-light{
+    color: #d6c9c9;
+}
 .font-lg {
     font-size: 2.4em;
     font-weight: 600;
@@ -374,7 +406,7 @@ header {
 }
 
 .first-right-score-position {
-    top: 2.6rem;
+    top: 2.1rem;
     left: 10.5rem;
 }
 

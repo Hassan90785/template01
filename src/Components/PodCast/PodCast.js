@@ -56,7 +56,7 @@ class PodCast extends Component {
                                     <div className="col-md-4">
                                         <div className="card">
                                             <img className="img-fluid" src={image1}/>
-                                            <div className="card-img-overlay img-overlay-light pl-5 pt-5">
+                                            <div className="card-img-overlay img-overlay-light pl-md-5 pl-1 pt-md-5">
                                                     <p className="card-text font-sm"><i className="fas fa-video"></i></p>
                                                     <h3 className="card-text pb-3 scroll-y-hidden">Week 5 Fantasy<br/> Projections + Notes</h3>
 
@@ -70,7 +70,7 @@ class PodCast extends Component {
                                     <div className="col-md-4">
                                        <div className="card">
                                             <img className="img-fluid" src={image2}/>
-                                            <div className="card-img-overlay img-overlay-blue-gradient text-white pl-5 pt-5">
+                                            <div className="card-img-overlay img-overlay-blue-gradient text-white pl-md-5 pl-1 pt-md-5">
                                                     <p className="card-text font-sm"><i className="fas fa-video"></i></p>
                                                     <h3 className="card-text pb-3 scroll-y-hidden">Week 5 Fantasy<br/> Projections + Notes</h3>
 
@@ -84,7 +84,7 @@ class PodCast extends Component {
                                     <div className="col-md-4">
                                   <div className="card">
                                             <img className="img-fluid" src={image3}/>
-                                            <div className="card-img-overlay img-overlay-light pl-5 pt-5">
+                                            <div className="card-img-overlay img-overlay-light pl-md-5 pl-1 pt-md-5">
                                                     <p className="card-text font-sm"><i className="fas fa-camera"></i></p>
                                                     <h3 className="card-text pb-3 scroll-y-hidden">Week 5 Fantasy<br/> Projections + Notes</h3>
 

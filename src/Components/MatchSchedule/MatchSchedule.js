@@ -37,7 +37,7 @@ class MatchSchedule extends Component {
                 <h4 className="scroll-y-hidden font-weight-bold pl-5">Match</h4>
                 <h4 className="scroll-y-hidden font-weight-bold pl-5">Schedule</h4>
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4">
+            <div className="col-xl-3 col-lg-4 col-md-4 col-sm-4 pl-5">
                   <div className="mt-4 scroll-y-hidden"> <a href=""><span className="align-bottom more-link text-dark">More</span></a><br/><br/></div>
             </div>
         </div>
@@ -47,11 +47,11 @@ class MatchSchedule extends Component {
                         <div id="matchScheduleCarousel" className="carousel  matchScheduleCarousel slide w-100" data-ride="carousel">
                             <div className="carousel-inner w-100" role="listbox">
                                 <div className="carousel-item matchScheduleCarousel-item active ">
-                                    <div className="col-md-4">
-                                        <div className="card d-inline-imp mt-3 ml-5 bg-black">
+                                    <div className="col-md-4 col-lg-4">
+                                        <div className="card d-inline-imp mt-md-3 ml-md-5 bg-black">
                                            <div className="float-left">
                                                <figure className="figure">
-                                                  <img src={flag1} className="figure-img img-fluid rounded pl-4" alt="A generic square placeholder image with rounded corners in a figure."/>
+                                                  <img src={flag1} className="figure-img img-fluid rounded pl-md-4" alt="A generic square placeholder image with rounded corners in a figure."/>
                                                    <p className="pt-3 pl-3 d-inline">2</p>
                                                    <p className="pt-3 pl-3 d-inline">:</p>
                                                   <figcaption className="figure-caption">ROTHERHAM</figcaption>
