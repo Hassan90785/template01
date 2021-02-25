@@ -285,6 +285,14 @@ header {
     .about-us-img-card{
         width: 48rem;
     }
+    .footer-list {
+        line-height: 0.1;
+    }
+    .copy-right{
+        text-align: left !important;
+        padding-left: 5rem !important;
+        padding-top: 0.4rem;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -344,7 +352,7 @@ header {
 
     .footer-list {
         border: none !important;
-        line-height: 0.1rem;
+        line-height: 0.4rem;
         overflow-y: hidden;
         font-size: 0.7rem;
     }
@@ -354,7 +362,12 @@ header {
     }
 
     .font-xs {
-        font-size: 0.8rem !important;
+        font-size: 1rem !important;
+    }
+    .copy-right{
+        text-align: left !important;
+        padding-left: 3rem !important;
+        padding-top: 2rem;
     }
 }
 
@@ -500,6 +513,7 @@ header {
 .h-fit-content {
     height: fit-content;
 }
+
 
 /*░░░░░░░░░░░░░░░░░░░░░░LeftNavigation scroll bar ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*/
 ::-webkit-scrollbar-track {
