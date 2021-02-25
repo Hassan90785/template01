@@ -49,7 +49,7 @@ class ArticleNews extends Component {
                           </div>
                             </div>
                         </div>
-                        <div className="card latest-news-card-two-sm d-none d-lg-block">
+                        <div className="card latest-news-card-two-sm d-none d-md-block">
                             <div className="card-horizontal">
                               <img className="card-img-left" src={image4} alt="Card image cap"/>
                               <div className="card-body bg-white py-0">
@@ -60,7 +60,7 @@ class ArticleNews extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="carousel-item ">
+                {/*    <div className="carousel-item ">
                          <div className="card latest-news-img-lg">
                             <img className="card-img " src={image1} alt="Card image"/>
                              <div className="card-img-overlay img-overlay-red-gradient">
@@ -135,7 +135,7 @@ class ArticleNews extends Component {
                           </div>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
 
                   </div>
                 </div>

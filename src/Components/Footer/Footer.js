@@ -5,7 +5,7 @@ class Footer extends Component {
     render() {
         return (
             <>
-                <footer className="row">
+                <footer className="row bg-dark">
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 bg-dark">
                     <div className="container footer-sizing px-0">
                      <img src={logo} alt="logo" className=" logo-sm "/>
@@ -16,11 +16,11 @@ class Footer extends Component {
                 </div>
             </div>
             <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 px-0">
-                    <div className="card pb-5 pb-md-0  text-center">
+                    <div className="card pb-5 pb-md-0  text-center about-us-img-card">
                     <img className="card-img" src={footer} alt="Card image"/>
                     <div className="card-img-overlay img-overlay-dark">
                         <div className="row">
-                        <div className="col-6">
+                        <div className="col-6 col-md-4 col-lg-6">
                             <div className="card-header font-xs text-white">
                             API Solutions
                             </div>
@@ -35,7 +35,7 @@ class Footer extends Component {
                                 <li className="list-group-item bg-transparent footer-list"><a href="" className="color-gray">PGA Golf API</a></li>
                             </ul>
                         </div>
-                        <div className="col-6">
+                        <div className="col-6 col-md-4 col-lg-6">
                             <div className="card-header font-xs text-white">
                             QUICK LINKS
                             </div>

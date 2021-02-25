@@ -219,7 +219,7 @@ header {
     left: 3rem;
 }
 
-.card-img-overlay {
+.about-img-overlay {
     background: linear-gradient(0, #6569ec, #17141457);
     opacity: 0.8;
 }
@@ -238,32 +238,52 @@ header {
 
 @media only screen and (max-width: 768px) {
     .contianer-about-card {
-        position: unset;
-        top: 0;
+        position: absolute;
+        top: 2rem;
         right: 0;
-        padding-left: 1rem !important;
         padding-right: 1rem !important;
     }
+
     .carousel-caption {
         top: 3rem;
         left: 1rem;
         bottom: auto;
     }
-    .t-text{
+
+    .t-text {
         line-height: 0.9;
         text-align: left !important;
         font-size: .7rem;
         overflow-y: hidden;
     }
+
     .latest-news-card-body-md {
         bottom: 1rem;
         left: 3.2rem;
     }
-    .more-link-sizing{
+
+    .more-link-sizing {
         font-size: 0.9rem;
     }
+
     .card-text-sizing {
         font-size: 0.9rem !important;
+    }
+
+    .latest-news-img-lg {
+        width: 60vw !important;
+    }
+    .latest-news-card-two-sm {
+        top: 17vh;
+    }
+    .latest-news-card-sm {
+        top: 0;
+    }
+    .latest-news-card-md {
+        left: 44%;
+    }
+    .about-us-img-card{
+        width: 48rem;
     }
 }
 
@@ -334,7 +354,7 @@ header {
     }
 
     .font-xs {
-        font-size: 0.8rem!important;
+        font-size: 0.8rem !important;
     }
 }
 
@@ -476,9 +496,11 @@ header {
 .figure-caption {
     text-align: center;
 }
-.h-fit-content{
+
+.h-fit-content {
     height: fit-content;
 }
+
 /*░░░░░░░░░░░░░░░░░░░░░░LeftNavigation scroll bar ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░*/
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
