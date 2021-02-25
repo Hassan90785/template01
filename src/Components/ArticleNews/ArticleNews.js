@@ -34,7 +34,7 @@ class ArticleNews extends Component {
                         <div className="card d-none d-sm-block latest-news-card-md">
                             <img className="card-img-top " src={image2} alt="Card image"/>
                             <div className="card-body latest-news-card-body-md">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
                             <p className="card-text font-weight-bold text-justify t-text">Match Previews + Week 5 Injury Analysis with Dr. David Chao</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>
@@ -43,8 +43,8 @@ class ArticleNews extends Component {
                             <div className="card-horizontal ">
                               <img className="card-img-left" src={image3} alt="Card image cap"/>
                               <div className="card-body bg-white py-0">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
-                            <p className="card-text mb-0 font-weight-bold t-text">Fantasy Football <br/>Streaming Picks <br/>Week 5</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
+                            <p className="card-text mb-0 font-weight-bold t-text scroll-y-hidden">Fantasy Football <br/>Streaming Picks <br/>Week 5</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>
                             </div>
@@ -53,8 +53,8 @@ class ArticleNews extends Component {
                             <div className="card-horizontal">
                               <img className="card-img-left" src={image4} alt="Card image cap"/>
                               <div className="card-body bg-white py-0">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
-                            <p className="card-text mb-0 font-weight-bold t-text">Fantasy Football <br/>Streaming Picks <br/>Week 5</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
+                            <p className="card-text mb-0 font-weight-bold t-text scroll-y-hidden">Fantasy Football <br/>Streaming Picks <br/>Week 5</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>
                             </div>
@@ -72,7 +72,7 @@ class ArticleNews extends Component {
                         <div className="card d-none d-sm-block latest-news-card-md">
                             <img className="card-img-top " src={image2} alt="Card image"/>
                             <div className="card-body latest-news-card-body-md">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
                             <p className="card-text font-weight-bold text-justify t-text">Match Previews + Week 5 Injury Analysis with Dr. David Chao</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>
@@ -81,7 +81,7 @@ class ArticleNews extends Component {
                             <div className="card-horizontal ">
                               <img className="card-img-left" src={image3} alt="Card image cap"/>
                               <div className="card-body bg-white py-0">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
                             <p className="card-text mb-0 font-weight-bold ">Fantasy Football <br/>Streaming Picks <br/>Week 5</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>
@@ -91,7 +91,7 @@ class ArticleNews extends Component {
                             <div className="card-horizontal">
                               <img className="card-img-left" src={image4} alt="Card image cap"/>
                               <div className="card-body bg-white py-0">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
                             <p className="card-text mb-0 font-weight-bold ">Fantasy Football <br/>Streaming Picks <br/>Week 5</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>
@@ -110,7 +110,7 @@ class ArticleNews extends Component {
                         <div className="card d-none d-sm-block latest-news-card-md">
                             <img className="card-img-top " src={image2} alt="Card image"/>
                             <div className="card-body latest-news-card-body-md">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
                             <p className="card-text font-weight-bold text-justify t-text">Match Previews + Week 5 Injury Analysis with Dr. David Chao</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>
@@ -119,7 +119,7 @@ class ArticleNews extends Component {
                             <div className="card-horizontal ">
                               <img className="card-img-left" src={image3} alt="Card image cap"/>
                               <div className="card-body bg-white py-0">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
                             <p className="card-text mb-0 font-weight-bold ">Fantasy Football <br/>Streaming Picks <br/>Week 5</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>
@@ -129,7 +129,7 @@ class ArticleNews extends Component {
                             <div className="card-horizontal">
                               <img className="card-img-left" src={image4} alt="Card image cap"/>
                               <div className="card-body bg-white py-0">
-                            <p className="card-title color-blue font-xxs">12 October 2020</p>
+                            <p className="card-title color-blue font-xxs scroll-y-hidden">12 October 2020</p>
                             <p className="card-text mb-0 font-weight-bold ">Fantasy Football <br/>Streaming Picks <br/>Week 5</p>
                                 <a href=""><span className="align-bottom more-link-sizing more-link text-dark">More</span></a>
                           </div>

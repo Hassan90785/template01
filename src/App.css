@@ -215,8 +215,9 @@ header {
 .latest-news-card-body-md {
     background: white;
     position: absolute;
-    bottom: 0;
+    bottom: 1.88rem;
     left: 3rem;
+    right: 1.19rem;
 }
 
 .about-img-overlay {
@@ -236,6 +237,53 @@ header {
     width: fit-content;
 }
 
+@media only screen and (max-width: 1024px) {
+
+    .latest-news-card-body-md {
+        background: white;
+        position: absolute;
+        bottom: 1.48rem;
+        left: 3rem;
+        right: 0.9rem;
+        padding: 0.6rem;
+    }
+    .latest-news-card-md {
+        width: 29vw;
+        left: 36%;
+    }
+    .latest-news-card-sm {
+        line-height: 1;
+        font-size: 0.9rem;
+        font-weight: normal;
+    }
+    .latest-news-card-two-sm {
+        line-height: 1;
+        font-size: 0.9rem;
+        font-weight: normal;
+    }
+}
+@media only screen and (min-width: 1440px) {
+
+    .latest-news-card-sm {
+        top: 3vh;
+    }
+    .latest-news-card-two-sm {
+        top: 24vh;
+    }
+    .latest-news-img-lg {
+        width: 54.9vw;
+    }
+    .latest-news-card-md {
+        width: 32vw;
+        left: 37%;
+        top: 1.2rem;
+    }
+    .latest-news-card-body-md {
+        bottom: 2.4rem;
+        left: 3rem;
+        right: 1.5rem;
+    }
+}
 @media only screen and (max-width: 768px) {
     .contianer-about-card {
         position: absolute;
@@ -258,12 +306,13 @@ header {
     }
 
     .latest-news-card-body-md {
-        bottom: 1rem;
+        bottom: 1.18rem;
         left: 3.2rem;
+        right: 0.7rem;
     }
 
     .more-link-sizing {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .card-text-sizing {
